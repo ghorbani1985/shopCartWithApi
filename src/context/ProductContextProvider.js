@@ -8,7 +8,6 @@ const ProductContextProvider = ({children}) => {
         const fetchAPI = async () => {
          setProducts(await getProducts());
         }
-       
         fetchAPI();
     }, []);
     return (
